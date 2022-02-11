@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:26542",
+      "sslPort": 44339
+    }
+  },
+  "profiles": {
+    "WebApplication168": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7118;http://localhost:5118",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://webapplication168vault.vault.azure.net/",
+        "AZURE_USERNAME": "timheuer@microsoft.com"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://webapplication168vault.vault.azure.net/",
+        "AZURE_USERNAME": "timheuer@microsoft.com"
+      }
+    }
+  }
+}
